@@ -733,7 +733,7 @@ extension ViewController: AVCaptureVideoDataOutputSampleBufferDelegate {
         if winkFlag == 6 {//切り替え
             color = UIColor.purple.cgColor
             out_put = 5
-            TextString.append("L")
+            TextString.append("R")
             
             winkFlag = 0
             first_numberLR = 0
@@ -744,7 +744,7 @@ extension ViewController: AVCaptureVideoDataOutputSampleBufferDelegate {
         if winkFlag == -6 {//切り替え
             color = UIColor.purple.cgColor
             out_put = 6
-            TextString.append("R")
+            TextString.append("L")
             
             winkFlag = 0
             first_numberLR = 0
